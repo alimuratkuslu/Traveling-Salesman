@@ -207,6 +207,7 @@ function startSA() {
       clearInterval(timer);
       saRunning = false;
       alert(`SA Complete!\nIterations: ${iter}\nBest Distance: ${bestDist.toFixed(2)}`);
+      alert(`AŞKOOO BU MESAJI GÖRMEYECEĞİNİ BİLDİĞİM İÇİN YAZIYORUM, BASEL'DEN RED ALDIM`);
       return;
     }
     const i = Math.floor(Math.random()*currentRoute.length);
