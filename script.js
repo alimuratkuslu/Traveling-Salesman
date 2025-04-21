@@ -182,7 +182,7 @@ function computeDistances() {
 }
 
 function totalDistance(route) {
-  let d=0, prev=0; // 0=warehouse index
+  let d=0, prev=0; 
   route.forEach(i=>{
     d += distMatrix[prev][i+1]; prev = i+1;
   });
